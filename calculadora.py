@@ -37,7 +37,7 @@ class Multiplicacao(Operacao):
 
 class Divisao(Operacao):
     def executar(self, valor1, valor2):
-        return valor1 / valor2 if valor1 and valor2 is not 0 else ZeroDivisionError
+        return valor1 / valor2 if valor1 and valor2 != 0 else ZeroDivisionError
 
 class TestesCalculadora(TestCase):
     def test_operacao_soma_one(self):
