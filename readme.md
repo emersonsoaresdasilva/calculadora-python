@@ -9,7 +9,7 @@ Script para realizar testes com operações matemáticas na Calculadora.
 - Python. 🐍
 
 ### Executar testes:
-<code>python calculadora.py -v</code>
+<code>python tests_calculadora.py -v</code>
 
 ### Requisitos para utilizar o script:
 - [x] Ter o Python 3 instalado na máquina.
